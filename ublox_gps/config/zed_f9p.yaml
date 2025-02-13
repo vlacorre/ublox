@@ -9,6 +9,12 @@ ublox_gps_node:
     # TMODE3 Config
     tmode3: 0                   # Survey-In Mode
 
+    ############################################################################
+    ############################################################################
+    # WE DO NOT ACTUALLY CONFIGURE THE BOARD, BECAUSE IT IS A PRE-CONFIGURED STANDALONE KIT.
+    config_on_startup: false
+
+    # THIS WILL BE IGNORED:
     fix_mode: 3d
     enable_ppp: true
     nav_rate: 1
@@ -18,6 +24,8 @@ ublox_gps_node:
       glonass: true
       beidou: true
       qzss: true
+    ############################################################################
+    ############################################################################
 
     sv_in:
       reset: True               # True: disables and re-enables survey-in (resets)
