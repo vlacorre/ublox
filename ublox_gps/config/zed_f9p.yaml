@@ -22,8 +22,8 @@ ublox_gps_node:
       gps: true
       galileo: true
       glonass: true
-      beidou: true
-      qzss: true
+      beidou: false
+      qzss: false
     ############################################################################
     ############################################################################
 
